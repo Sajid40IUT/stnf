@@ -43,7 +43,7 @@ export default function Future() {
           transition={{ duration: 0.8 }}
           className="text-center mb-16"
         >
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">What's Next</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">What&apos;s Next</h2>
           <p className="text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
             Our roadmap for future development focuses on enhancing performance, accessibility,
             and real-world applications.

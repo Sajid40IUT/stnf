@@ -3,7 +3,7 @@
 import { motion } from 'framer-motion'
 import { useInView } from 'framer-motion'
 import { useRef } from 'react'
-import { FaGithub, FaLinkedin, FaUniversity } from 'react-icons/fa'
+import { FaGithub, FaUniversity } from 'react-icons/fa'
 
 const teamMembers = [
   {

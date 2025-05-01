@@ -5,15 +5,9 @@ import { useInView } from 'framer-motion'
 import { useRef } from 'react'
 import { 
   FaMicrophone, 
-  FaFileAudio, 
-  FaRobot, 
   FaBrain,
   FaWaveSquare,
   FaCog,
-  FaChartBar,
-  FaArrowDown,
-  FaArrowRight,
-  FaMagic,
   FaCheck
 } from 'react-icons/fa'
 

@@ -116,7 +116,7 @@ export default function Methodology() {
               <div className="space-y-3">
                 <div className="bg-white dark:bg-gray-800 p-4 rounded-lg">
                   <p className="text-sm font-semibold text-gray-700 dark:text-gray-200 mb-2">
-                    Why it's useful:
+                    Why it&apos;s useful:
                   </p>
                   <p className="text-sm text-gray-600 dark:text-gray-300">
                     {technique.whyUseful}
@@ -215,7 +215,7 @@ export default function Methodology() {
 
           <div className="mt-8 bg-blue-50 dark:bg-blue-900/20 p-6 rounded-lg">
             <p className="text-blue-600 dark:text-blue-300 font-semibold">
-              Why it's powerful: It learns the best settings over time for different types of audio and noise environments.
+              Why it&apos;s powerful: It learns the best settings over time for different types of audio and noise environments.
             </p>
           </div>
         </motion.div>
