@@ -1,36 +1,104 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Self-Tuning Noise Filter for Audio Enhancement
+
+A showcase website for our AI-driven noise filter project, developed as part of the Artificial Intelligence and Machine Learning (EEE 4709) course at Islamic University of Technology (IUT-OIC).
+
+## Project Overview
+
+Our self-tuning noise filter combines traditional signal processing techniques with modern reinforcement learning to create an adaptive system that can handle real-world, dynamic noise environments. The system continuously optimizes its parameters to provide optimal noise reduction while preserving the quality of the target audio signal.
+
+## Features
+
+- Real-time adaptive noise filtering
+- Multiple input source support (microphone, pre-recorded, synthetic)
+- Advanced signal processing (STFT, MFCC, Spectral Subtraction)
+- Reinforcement learning for parameter optimization
+- Performance visualization and analysis
+- Comprehensive documentation
+
+## Technologies Used
+
+- Next.js 14
+- TypeScript
+- TailwindCSS
+- Framer Motion
+- React Icons
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- Node.js 18.0 or later
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/noise-filter-showcase.git
+   cd noise-filter-showcase
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+3. Start the development server:
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+
+4. Open [http://localhost:3000](http://localhost:3000) in your browser to view the website.
+
+## Project Structure
+
+```
+noise-filter-showcase/
+├── src/
+│   ├── app/
+│   │   ├── layout.tsx
+│   │   └── page.tsx
+│   └── components/
+│       ├── Hero.tsx
+│       ├── Motivation.tsx
+│       ├── Architecture.tsx
+│       ├── Methodology.tsx
+│       ├── Results.tsx
+│       ├── Challenges.tsx
+│       ├── Future.tsx
+│       ├── Team.tsx
+│       ├── Ethics.tsx
+│       └── References.tsx
+├── public/
+│   └── team/
+├── tailwind.config.ts
+└── package.json
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Team Members
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Pushpita Khan (200021354)
+- Muslima Siddiqui Shera (200021117)
+- Sk Asad Al Abir (200021331)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Supervisor
 
-## Learn More
+Md Arefin Rabbi Emon  
+Lecturer, Department of EEE  
+Islamic University of Technology (IUT-OIC)
 
-To learn more about Next.js, take a look at the following resources:
+## Contributing
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This is a course project showcase website. While we appreciate your interest, we are not accepting direct contributions at this time.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## License
 
-## Deploy on Vercel
+This project is for educational purposes only. All rights reserved.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Acknowledgments
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Special thanks to our supervisor and the Department of EEE at IUT for their guidance and support throughout this project.
