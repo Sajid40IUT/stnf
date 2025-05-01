@@ -12,7 +12,6 @@ import {
   FaSync,
   FaRobot,
   FaArrowRight,
-  FaArrowLeft,
   FaArrowUp,
   FaArrowDown
 } from 'react-icons/fa'
